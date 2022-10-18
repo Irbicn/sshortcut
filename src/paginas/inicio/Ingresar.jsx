@@ -73,7 +73,9 @@ export default function Ingresar() {
               },
             })}
             type="text"
-            placeholder="User/user@example.com"
+            placeholder={
+              reg ? "nombre de usuario" : "Usuario / email@ejemplo.com"
+            }
             className="form-control form-control-md"
           />
           <span className=" text-danger">{errors["name"]?.message}</span>
@@ -85,7 +87,7 @@ export default function Ingresar() {
               {...register("password", {
                 required: { value: true, message: "Ingrese una contraseña!" },
                 minLength: {
-                  value: 8,
+                  value: reg ? 8 : false,
                   message: "Debe tener al menos 8 caracteres",
                 },
                 maxLength: {
@@ -160,7 +162,7 @@ export default function Ingresar() {
           </>
         )}
         <button type="submit" className="btn btn-primary">
-          submit
+          {reg ? "Entrar" : "Registrarme"}
         </button>
       </form>
     </div>
