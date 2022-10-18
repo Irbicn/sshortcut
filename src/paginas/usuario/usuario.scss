@@ -1,0 +1,30 @@
+.url_card{
+  position: relative;
+  width: fit-content;
+  border: 1px solid black;
+}
+.url_card_loading{
+  position: absolute;
+  right: 27px;
+  top:40%;
+}
+
+.editing_card{
+  display: contents;
+  left: -4px;
+  right: -4px;
+  top: -4px;
+  bottom: -4px;
+}
+.editing_card[editing]{
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.349);
+  position: fixed;
+  z-index: 9;
+  justify-content: center;
+  align-items: center;
+  div{
+    width: fit-content;
+    background-color: aliceblue;
+  }
+}
