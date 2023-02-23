@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sshorcut/static/css/main.1e128b36.css",
+    "main.js": "/sshorcut/static/js/main.5c433120.js",
+    "static/js/787.a7ad1f51.chunk.js": "/sshorcut/static/js/787.a7ad1f51.chunk.js",
+    "index.html": "/sshorcut/index.html",
+    "main.1e128b36.css.map": "/sshorcut/static/css/main.1e128b36.css.map",
+    "main.5c433120.js.map": "/sshorcut/static/js/main.5c433120.js.map",
+    "787.a7ad1f51.chunk.js.map": "/sshorcut/static/js/787.a7ad1f51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e128b36.css",
+    "static/js/main.5c433120.js"
+  ]
+}
